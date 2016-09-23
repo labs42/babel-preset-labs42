@@ -1,0 +1,40 @@
+{
+  "name": "babel-preset-labs42",
+  "version": "1.0.0",
+  "description": "babel preset accepted and used in labs42 projects",
+  "main": "src/preset.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/prelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:labs42/babel-preset-labs42.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "labs42"
+  ],
+  "author": "Alexander I. Antipin <alex@antipin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labs42/babel-preset-labs42/issues"
+  },
+  "homepage": "https://github.com/labs42/babel-preset-labs42#readme",
+  "precommit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "eslint-config-labs42": "1.0.2",
+    "pre-commit": "1.1.3",
+    "prelint": "1.0.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "6.8.0",
+    "babel-plugin-transform-class-properties": "6.11.5",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-es2015-destructuring": "6.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.14.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0"
+  }
+}
