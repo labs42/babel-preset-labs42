@@ -1,1 +1,4 @@
 extends: labs42/presets/node
+rules:
+  global-require: "off"
+  import/no-unresolved: "off"
