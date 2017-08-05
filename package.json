@@ -25,17 +25,17 @@
     "lint"
   ],
   "devDependencies": {
-    "eslint-config-labs42": "1.0.2",
-    "pre-commit": "1.1.3",
-    "prelint": "1.0.1"
+    "eslint-config-labs42": "2.2.1",
+    "pre-commit": "1.2.2",
+    "prelint": "1.2.0"
   },
   "dependencies": {
-    "babel-plugin-transform-async-to-generator": "6.8.0",
-    "babel-plugin-transform-class-properties": "6.11.5",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-decorators-legacy": "1.3.4",
-    "babel-plugin-transform-es2015-destructuring": "6.9.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.14.0",
-    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-plugin-transform-es2015-destructuring": "6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-plugin-transform-react-stateless-component-name": "1.1.1"
   }
 }
