@@ -21,7 +21,7 @@
     "url": "https://github.com/labs42/babel-preset-labs42/issues"
   },
   "homepage": "https://github.com/labs42/babel-preset-labs42#readme",
-  "precommit": [
+  "pre-commit": [
     "lint"
   ],
   "devDependencies": {
