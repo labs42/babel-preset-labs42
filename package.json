@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-labs42",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "babel preset accepted and used in labs42 projects",
   "main": "src/preset.js",
   "scripts": {
