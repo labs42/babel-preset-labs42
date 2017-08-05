@@ -6,6 +6,6 @@ module.exports = {
         require('babel-plugin-transform-class-properties'),
         require('babel-plugin-transform-es2015-destructuring'),
         require('babel-plugin-transform-object-rest-spread'),
-        require('babel-plugin-transform-react-stateless-component-name'),
+        require('babel-plugin-transform-react-stateless-component-name').default,
     ]
 }
